@@ -1,0 +1,2969 @@
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+Enter the number of messages to simulate: 100
+Enter  packet loss probability [enter 0.0 for no loss]:0.2
+Enter packet corruption probability [0.0 for no corruption]:0
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+
+EVENT time: 93.569748,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF3232
+  message: aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 99.062195,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3232
+  message:aaaaaaaaaaaaaaaaaaaa
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 101.561325,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 1607.715088,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF2827
+  message: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 1609.116333,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF2827
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 1614.552979,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 2322.031250,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF1E1E
+  message: cccccccccccccccccccc
+
+
+EVENT time: 2325.527344,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF1E1E
+  message:cccccccccccccccccccc
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 2328.412354,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 3332.804199,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF1413
+  message: dddddddddddddddddddd
+
+
+EVENT time: 3337.380615,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF1413
+  message:dddddddddddddddddddd
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 3345.409912,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 5057.893555,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF0A0A
+  message: eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 5063.455078,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF0A0A
+  message:eeeeeeeeeeeeeeeeeeee
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 5077.893555,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF0A0A
+  message:eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 5083.841309,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF0A0A
+  message:eeeeeeeeeeeeeeeeeeee
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 5086.039063,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 5746.330078,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFEFFFF
+  message: ffffffffffffffffffff
+
+
+EVENT time: 5747.367676,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 5750.909180,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFEFFFF
+  message:ffffffffffffffffffff
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 5759.888184,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 6231.452148,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFEBEB
+  message: hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 6233.372070,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 6243.006836,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 7450.788574,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFE1E0
+  message: iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 7456.870117,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 7461.421875,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 9037.262695,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFD7D7
+  message: jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 9044.974609,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 9054.395508,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 9334.085938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFCDCC
+  message: kkkkkkkkkkkkkkkkkkkk
+
+
+EVENT time: 9341.939453,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 9344.465820,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 11134.677734,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFC3C3
+  message: llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 11154.677734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 11174.677734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 11194.677734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 11214.677734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+
+EVENT time: 11215.838867,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 11220.035156,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 13028.839844,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFB9B8
+  message: mmmmmmmmmmmmmmmmmmmm
+
+          TOLAYER3: packet being lost
+
+EVENT time: 13048.839844,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 13050.383789,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 13068.839844,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 13074.757813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 13082.152344,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 13187.840820,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFAFAF
+  message: nnnnnnnnnnnnnnnnnnnn
+
+          TOLAYER3: packet being lost
+
+EVENT time: 13207.840820,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+
+EVENT time: 13212.523438,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 13215.492188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 14179.570313,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFA5A4
+  message: oooooooooooooooooooo
+
+
+EVENT time: 14187.552734,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFA5A4
+  message:oooooooooooooooooooo
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 14189.214844,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 14962.736328,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF9B9B
+  message: pppppppppppppppppppp
+
+
+EVENT time: 14969.665039,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 14982.736328,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+          TOLAYER3: packet being lost
+
+EVENT time: 15002.736328,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+
+EVENT time: 15008.172852,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 15009.199219,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 16015.869141,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF9190
+  message: qqqqqqqqqqqqqqqqqqqq
+
+
+EVENT time: 16024.375977,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 16033.034180,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 16672.505859,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF8787
+  message: rrrrrrrrrrrrrrrrrrrr
+
+
+EVENT time: 16673.554688,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 16692.505859,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+
+EVENT time: 16696.591797,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 16697.603516,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 18113.101563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF7D7C
+  message: ssssssssssssssssssss
+
+
+EVENT time: 18117.472656,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 18121.015625,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 18930.203125,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF7373
+  message: tttttttttttttttttttt
+
+
+EVENT time: 18936.781250,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 18945.810547,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 20548.539063,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF6968
+  message: uuuuuuuuuuuuuuuuuuuu
+
+
+EVENT time: 20552.619141,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF6968
+  message:uuuuuuuuuuuuuuuuuuuu
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 20557.240234,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 20646.625000,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF5F5F
+  message: vvvvvvvvvvvvvvvvvvvv
+
+
+EVENT time: 20655.783203,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 20666.625000,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+          TOLAYER3: packet being lost
+
+EVENT time: 20686.625000,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+
+EVENT time: 20696.212891,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 20700.699219,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 21059.906250,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF5554
+  message: wwwwwwwwwwwwwwwwwwww
+
+
+EVENT time: 21063.201172,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 21079.906250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+
+EVENT time: 21083.728516,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 21090.550781,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 22391.855469,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF4B4B
+  message: xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 22411.855469,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 22431.855469,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 22451.855469,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+
+EVENT time: 22460.183594,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 22468.941406,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 23396.951172,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF4140
+  message: yyyyyyyyyyyyyyyyyyyy
+
+
+EVENT time: 23406.339844,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF4140
+  message:yyyyyyyyyyyyyyyyyyyy
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 23415.259766,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 24766.072266,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF3737
+  message: zzzzzzzzzzzzzzzzzzzz
+
+          TOLAYER3: packet being lost
+
+EVENT time: 24786.072266,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 24792.894531,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 24806.072266,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+          TOLAYER3: packet being lost
+
+EVENT time: 24826.072266,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 24831.931641,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 24846.072266,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 24850.675781,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 24853.048828,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 26450.267578,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF3231
+  message: aaaaaaaaaaaaaaaaaaaa
+
+          TOLAYER3: packet being lost
+
+EVENT time: 26470.267578,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF3231
+  message:aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 26473.570313,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF3231
+  message:aaaaaaaaaaaaaaaaaaaa
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 26481.796875,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 26566.177734,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF2828
+  message: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 26569.611328,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 26586.177734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 26593.347656,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 26606.177734,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 26608.656250,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 26611.248047,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 27934.261719,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF1E1D
+  message: cccccccccccccccccccc
+
+          TOLAYER3: packet being lost
+
+EVENT time: 27954.261719,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF1E1D
+  message:cccccccccccccccccccc
+
+
+EVENT time: 27959.525391,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF1E1D
+  message:cccccccccccccccccccc
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 27966.220703,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 28864.892578,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF1414
+  message: dddddddddddddddddddd
+
+
+EVENT time: 28869.035156,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF1414
+  message:dddddddddddddddddddd
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 28873.279297,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 29346.597656,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF0A09
+  message: eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 29352.916016,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF0A09
+  message:eeeeeeeeeeeeeeeeeeee
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 29355.503906,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 29805.900391,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF0000
+  message: ffffffffffffffffffff
+
+
+EVENT time: 29808.285156,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF0000
+  message:ffffffffffffffffffff
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 29811.833984,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 30854.271484,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFF5F4
+  message: gggggggggggggggggggg
+
+
+EVENT time: 30860.021484,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 30866.941406,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 31466.107422,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFEBEB
+  message: hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 31469.880859,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 31472.119141,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 31499.005859,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFE1E0
+  message: iiiiiiiiiiiiiiiiiiii
+
+          TOLAYER3: packet being lost
+
+EVENT time: 31519.005859,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 31528.537109,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 31539.005859,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 31548.324219,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 31549.556641,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 31777.822266,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFD7D7
+  message: jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 31781.687500,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 31784.050781,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 32908.472656,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFCDCC
+  message: kkkkkkkkkkkkkkkkkkkk
+
+
+EVENT time: 32914.234375,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 32919.253906,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 33703.296875,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFC3C3
+  message: llllllllllllllllllll
+
+
+EVENT time: 33707.632813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 33714.886719,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 35106.902344,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFB9B8
+  message: mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 35115.542969,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 35126.902344,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+          TOLAYER3: packet being lost
+
+EVENT time: 35146.902344,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+          TOLAYER3: packet being lost
+
+EVENT time: 35166.902344,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 35171.187500,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 35175.507813,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 36808.675781,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFAFAF
+  message: nnnnnnnnnnnnnnnnnnnn
+
+
+EVENT time: 36812.125000,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 36814.484375,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 38236.390625,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFA5A4
+  message: oooooooooooooooooooo
+
+          TOLAYER3: packet being lost
+
+EVENT time: 38256.390625,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFA5A4
+  message:oooooooooooooooooooo
+
+
+EVENT time: 38259.308594,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFA5A4
+  message:oooooooooooooooooooo
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 38268.718750,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 38654.007813,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF9B9B
+  message: pppppppppppppppppppp
+
+
+EVENT time: 38663.644531,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 38673.375000,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 40093.136719,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF9190
+  message: qqqqqqqqqqqqqqqqqqqq
+
+
+EVENT time: 40099.554688,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 40113.136719,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+
+EVENT time: 40116.492188,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 40118.902344,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 40908.285156,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF8787
+  message: rrrrrrrrrrrrrrrrrrrr
+
+          TOLAYER3: packet being lost
+
+EVENT time: 40928.285156,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+
+EVENT time: 40936.648438,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 40941.250000,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 41453.343750,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF7D7C
+  message: ssssssssssssssssssss
+
+          TOLAYER3: packet being lost
+
+EVENT time: 41473.343750,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+
+EVENT time: 41478.914063,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 41493.343750,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+
+EVENT time: 41497.113281,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 41513.343750,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+
+EVENT time: 41522.804688,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 41533.343750,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+
+EVENT time: 41538.988281,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 41545.050781,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 42481.144531,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF7373
+  message: tttttttttttttttttttt
+
+          TOLAYER3: packet being lost
+
+EVENT time: 42501.144531,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+
+EVENT time: 42509.019531,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 42521.144531,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+
+EVENT time: 42531.136719,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 42540.707031,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 42951.863281,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF6968
+  message: uuuuuuuuuuuuuuuuuuuu
+
+
+EVENT time: 42953.261719,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF6968
+  message:uuuuuuuuuuuuuuuuuuuu
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 42958.003906,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 43257.292969,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF5F5F
+  message: vvvvvvvvvvvvvvvvvvvv
+
+
+EVENT time: 43261.578125,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 43270.582031,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 43790.816406,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF5554
+  message: wwwwwwwwwwwwwwwwwwww
+
+          TOLAYER3: packet being lost
+
+EVENT time: 43810.816406,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+
+EVENT time: 43814.796875,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 43820.933594,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 44503.179688,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF4B4B
+  message: xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 44523.179688,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 44543.179688,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+
+EVENT time: 44547.148438,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 44563.179688,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+
+EVENT time: 44570.886719,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 44583.179688,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+          TOLAYER3: packet being lost
+
+EVENT time: 44603.179688,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+
+EVENT time: 44606.078125,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 44608.480469,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 45678.937500,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF4140
+  message: yyyyyyyyyyyyyyyyyyyy
+
+          TOLAYER3: packet being lost
+
+EVENT time: 45698.937500,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF4140
+  message:yyyyyyyyyyyyyyyyyyyy
+
+
+EVENT time: 45705.492188,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF4140
+  message:yyyyyyyyyyyyyyyyyyyy
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 45715.070313,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 46909.992188,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF3737
+  message: zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 46918.562500,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 46929.992188,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 46936.613281,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 46943.269531,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 47089.929688,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF3231
+  message: aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 47097.476563,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF3231
+  message:aaaaaaaaaaaaaaaaaaaa
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 47099.066406,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 47456.210938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF2828
+  message: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 47458.632813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 47468.140625,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 48156.976563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF1E1D
+  message: cccccccccccccccccccc
+
+
+EVENT time: 48166.457031,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF1E1D
+  message:cccccccccccccccccccc
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 48168.980469,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 49460.054688,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF1414
+  message: dddddddddddddddddddd
+
+
+EVENT time: 49462.019531,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF1414
+  message:dddddddddddddddddddd
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 49468.277344,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 49469.453125,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF0A09
+  message: eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 49472.601563,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF0A09
+  message:eeeeeeeeeeeeeeeeeeee
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 49482.425781,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 50183.035156,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF0000
+  message: ffffffffffffffffffff
+
+
+EVENT time: 50184.265625,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF0000
+  message:ffffffffffffffffffff
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 50189.484375,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 51642.246094,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFF5F4
+  message: gggggggggggggggggggg
+
+
+EVENT time: 51650.500000,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 51662.246094,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+          TOLAYER3: packet being lost
+
+EVENT time: 51682.246094,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+          TOLAYER3: packet being lost
+
+EVENT time: 51702.246094,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+
+EVENT time: 51706.531250,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 51707.656250,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 52047.105469,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFEBEB
+  message: hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 52054.222656,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 52067.105469,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 52073.617188,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 52076.593750,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 53592.808594,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFE1E0
+  message: iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 53596.609375,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 53612.808594,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 53620.910156,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 53632.808594,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 53642.378906,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 53649.757813,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 54639.531250,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFD7D7
+  message: jjjjjjjjjjjjjjjjjjjj
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54659.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 54663.632813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54679.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 54681.324219,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54699.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 54704.320313,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54719.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 54722.691406,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54739.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+          TOLAYER3: packet being lost
+
+EVENT time: 54759.531250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 54763.027344,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:1
+Received!
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 54767.988281,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 56499.816406,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFCDCC
+  message: kkkkkkkkkkkkkkkkkkkk
+
+          TOLAYER3: packet being lost
+
+EVENT time: 56519.816406,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+
+EVENT time: 56524.300781,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 56539.816406,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+          TOLAYER3: packet being lost
+
+EVENT time: 56559.816406,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+          TOLAYER3: packet being lost
+
+EVENT time: 56579.816406,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+
+EVENT time: 56583.277344,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 56589.375000,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 58399.167969,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFC3C3
+  message: llllllllllllllllllll
+
+
+EVENT time: 58403.226563,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 58404.527344,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 58903.210938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFB9B8
+  message: mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 58909.921875,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 58914.394531,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 59139.605469,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFAFAF
+  message: nnnnnnnnnnnnnnnnnnnn
+
+          TOLAYER3: packet being lost
+
+EVENT time: 59159.605469,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+
+EVENT time: 59166.718750,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 59170.890625,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 61118.667969,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFA5A4
+  message: oooooooooooooooooooo
+
+
+EVENT time: 61128.515625,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFA5A4
+  message:oooooooooooooooooooo
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 61137.277344,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 63061.539063,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF9B9B
+  message: pppppppppppppppppppp
+
+
+EVENT time: 63065.378906,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 63067.742188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 63196.613281,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF9190
+  message: qqqqqqqqqqqqqqqqqqqq
+
+
+EVENT time: 63202.148438,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 63209.289063,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 65015.882813,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF8787
+  message: rrrrrrrrrrrrrrrrrrrr
+
+
+EVENT time: 65020.046875,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 65028.089844,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 66578.617188,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF7D7C
+  message: ssssssssssssssssssss
+
+
+EVENT time: 66588.593750,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+          TOLAYER3: packet being lost
+
+EVENT time: 66598.617188,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+          TOLAYER3: packet being lost
+
+EVENT time: 66618.617188,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+
+EVENT time: 66628.257813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:0
+Received!
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 66637.085938,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 67688.390625,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF7373
+  message: tttttttttttttttttttt
+
+
+EVENT time: 67692.953125,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 67699.101563,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 69077.960938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF6968
+  message: uuuuuuuuuuuuuuuuuuuu
+
+
+EVENT time: 69085.710938,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF6968
+  message:uuuuuuuuuuuuuuuuuuuu
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 69087.851563,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 70822.640625,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF5F5F
+  message: vvvvvvvvvvvvvvvvvvvv
+
+
+EVENT time: 70826.265625,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF5F5F
+  message:vvvvvvvvvvvvvvvvvvvv
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 70827.734375,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 72430.664063,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF5554
+  message: wwwwwwwwwwwwwwwwwwww
+
+
+EVENT time: 72435.421875,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF5554
+  message:wwwwwwwwwwwwwwwwwwww
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 72442.210938,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 72631.843750,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF4B4B
+  message: xxxxxxxxxxxxxxxxxxxx
+
+
+EVENT time: 72640.171875,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF4B4B
+  message:xxxxxxxxxxxxxxxxxxxx
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 72644.914063,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 74015.976563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF4140
+  message: yyyyyyyyyyyyyyyyyyyy
+
+
+EVENT time: 74023.851563,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF4140
+  message:yyyyyyyyyyyyyyyyyyyy
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 74026.867188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 75392.242188,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF3737
+  message: zzzzzzzzzzzzzzzzzzzz
+
+
+EVENT time: 75399.320313,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF3737
+  message:zzzzzzzzzzzzzzzzzzzz
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 75402.507813,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 75785.812500,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF3231
+  message: aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 75795.750000,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF3231
+  message:aaaaaaaaaaaaaaaaaaaa
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 75800.812500,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 76767.226563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF2828
+  message: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 76774.765625,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF2828
+  message:bbbbbbbbbbbbbbbbbbbb
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 76779.898438,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 77995.351563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF1E1D
+  message: cccccccccccccccccccc
+
+
+EVENT time: 78002.757813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF1E1D
+  message:cccccccccccccccccccc
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 78010.570313,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 78881.734375,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF1414
+  message: dddddddddddddddddddd
+
+
+EVENT time: 78883.617188,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF1414
+  message:dddddddddddddddddddd
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 78888.828125,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 80143.554688,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF0A09
+  message: eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 80147.695313,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF0A09
+  message:eeeeeeeeeeeeeeeeeeee
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 80150.867188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 80947.171875,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF0000
+  message: ffffffffffffffffffff
+
+
+EVENT time: 80948.968750,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF0000
+  message:ffffffffffffffffffff
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 80950.257813,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 82061.585938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFF5F4
+  message: gggggggggggggggggggg
+
+
+EVENT time: 82069.367188,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFF5F4
+  message:gggggggggggggggggggg
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 82079.171875,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 83116.976563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFEBEB
+  message: hhhhhhhhhhhhhhhhhhhh
+
+          TOLAYER3: packet being lost
+
+EVENT time: 83136.976563,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 83139.664063,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFEBEB
+  message:hhhhhhhhhhhhhhhhhhhh
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 83144.640625,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 83201.265625,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFE1E0
+  message: iiiiiiiiiiiiiiiiiiii
+
+          TOLAYER3: packet being lost
+
+EVENT time: 83221.265625,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 83230.218750,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFE1E0
+  message:iiiiiiiiiiiiiiiiiiii
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 83239.117188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 83830.984375,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFD7D7
+  message: jjjjjjjjjjjjjjjjjjjj
+
+          TOLAYER3: packet being lost
+
+EVENT time: 83850.984375,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 83860.726563,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFD7D7
+  message:jjjjjjjjjjjjjjjjjjjj
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 83863.984375,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 85259.984375,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFCDCC
+  message: kkkkkkkkkkkkkkkkkkkk
+
+          TOLAYER3: packet being lost
+
+EVENT time: 85279.984375,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+          TOLAYER3: packet being lost
+
+EVENT time: 85299.984375,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+
+EVENT time: 85303.953125,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFCDCC
+  message:kkkkkkkkkkkkkkkkkkkk
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 85313.773438,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 86673.781250,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFC3C3
+  message: llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 86693.781250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 86713.781250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 86733.781250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+          TOLAYER3: packet being lost
+
+EVENT time: 86753.781250,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+
+EVENT time: 86758.875000,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFC3C3
+  message:llllllllllllllllllll
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 86762.765625,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 87832.023438,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFB9B8
+  message: mmmmmmmmmmmmmmmmmmmm
+
+          TOLAYER3: packet being lost
+
+EVENT time: 87852.023438,  type: 0, timerinterrupt   entity: 0
+A resending:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+
+EVENT time: 87859.281250,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFB9B8
+  message:mmmmmmmmmmmmmmmmmmmm
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 87864.828125,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 88192.328125,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFFAFAF
+  message: nnnnnnnnnnnnnnnnnnnn
+
+
+EVENT time: 88193.515625,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFFAFAF
+  message:nnnnnnnnnnnnnnnnnnnn
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 88195.609375,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 88301.585938,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFFA5A4
+  message: oooooooooooooooooooo
+
+
+EVENT time: 88307.609375,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFFA5A4
+  message:oooooooooooooooooooo
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 88315.000000,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 89676.265625,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF9B9B
+  message: pppppppppppppppppppp
+
+
+EVENT time: 89680.132813,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF9B9B
+  message:pppppppppppppppppppp
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 89688.343750,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 91296.921875,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF9190
+  message: qqqqqqqqqqqqqqqqqqqq
+
+
+EVENT time: 91298.429688,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF9190
+  message:qqqqqqqqqqqqqqqqqqqq
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 91300.296875,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 92222.671875,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF8787
+  message: rrrrrrrrrrrrrrrrrrrr
+
+
+EVENT time: 92225.984375,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF8787
+  message:rrrrrrrrrrrrrrrrrrrr
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 92229.632813,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 92463.343750,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF7D7C
+  message: ssssssssssssssssssss
+
+
+EVENT time: 92465.812500,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF7D7C
+  message:ssssssssssssssssssss
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 92473.679688,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 93818.914063,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF7373
+  message: tttttttttttttttttttt
+
+
+EVENT time: 93828.625000,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:0, ack:0 check:FFFF7373
+  message:tttttttttttttttttttt
+
+B receiving:0,looking for:0
+B:sending:
+  seq:0, ack:0 check:FFFFBC73
+  message:ACK
+
+
+EVENT time: 93834.492188,  type: 2, fromlayer3  entity: 0
+A receiving acknum:0,looking for:0
+ACK!
+
+EVENT time: 95044.351563,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:1, ack:0 check:FFFF6968
+  message: uuuuuuuuuuuuuuuuuuuu
+
+
+EVENT time: 95048.023438,  type: 2, fromlayer3  entity: 1
+B receiving:
+  seq:1, ack:0 check:FFFF6968
+  message:uuuuuuuuuuuuuuuuuuuu
+
+B receiving:1,looking for:1
+B:sending:
+  seq:0, ack:1 check:FFFFBC72
+  message:ACK
+
+
+EVENT time: 95057.851563,  type: 2, fromlayer3  entity: 0
+A receiving acknum:1,looking for:1
+ACK!
+
+EVENT time: 95474.421875,  type: 1, fromlayer5  entity: 0
+A sending:
+  seq:0, ack:0 check:FFFF5F5F
+  message: vvvvvvvvvvvvvvvvvvvv
+
+
+EVENT time: 95480.273438,  type: 2, fromlayer3  entity: 1
+ Simulator terminated at time 95480.273438
+ after sending 100 msgs from layer5
